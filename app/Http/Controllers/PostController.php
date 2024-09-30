@@ -33,6 +33,10 @@ class PostController extends Controller
       'title' => 'required|max:20',
       'content' => 'required|max:200'
     ]);
+    $post = new Post();
+    $post->title = $request->input('title');
+    $post->content = $request->input('content');
+    $post->save();
 
     return redirect('/posts');
   }

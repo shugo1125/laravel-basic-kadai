@@ -25,14 +25,14 @@
       <tr>
         <th>タイトル</th>
         <td>
-          <input type="text" name="user_name">
+          <input type="text" name="title">
         </td>
       </tr>
 
       <tr>
         <th>本文</th>
         <td>
-          <textarea name="message" cols="30" rows="10"></textarea>
+          <textarea name="content" cols="30" rows="10"></textarea>
         </td>
       </tr>
     </table>
